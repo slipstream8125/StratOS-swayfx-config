@@ -6,8 +6,8 @@ pkgdesc="SwayFX config for StratOS"
 arch=('any')
 license=('GPL3')
 depends=(
-	'swayfx' 'python-pywal' 'kitty' 'swayosd' 'swaync'
-	'waybar' 'superfile' 'thunar' 'swww' 'stratos-fish-config' "nwg-displays" "stratos-waybar-config"
+	'swayfx' 'kitty' 'swayosd' 'swaync'
+	'waybar' 'thunar' 'swww' 'stratos-swaync-config' 'stratos-kitty-config' 'stratos-fish-config' "nwg-displays" "stratos-waybar-config"
 	)
 
 source=()
