@@ -1,7 +1,7 @@
 # Maintainer: @Slipstream8125 <slipstream8125@proton.me>
 pkgname=stratos-swayfx-config
 pkgver=1.0
-pkgrel=5
+pkgrel=6
 pkgdesc="SwayFX config for StratOS"
 arch=('any')
 license=('GPL3')
@@ -19,4 +19,5 @@ prepare() {
 package() {
     install -d "$pkgdir"/etc/skel/.config
     cp -ra "$srcdir"/.config/sway/ "$pkgdir"/etc/skel/.config/
+    cp -ra "$srcdir"/.config/swaylock/ "$pkgdir"/etc/skel/.config/
 }
