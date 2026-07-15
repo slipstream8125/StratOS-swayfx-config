@@ -8,6 +8,7 @@ license=('GPL3')
 depends=(
 	'swayfx' 'kitty' 'swayosd' 'swaync' 'stratos-eww-config' 'swaylock-effects'
 	'waybar' 'thunar' 'swww' 'stratos-swaync-config' 'stratos-kitty-config' 'stratos-fish-config' "nwg-displays" "stratos-waybar-swayfx-config"
+	'xdg-desktop-portal-wlr' 'conky'
 	)
 
 source=()
@@ -20,4 +21,5 @@ package() {
     install -d "$pkgdir"/etc/skel/.config
     cp -ra "$srcdir"/.config/sway/ "$pkgdir"/etc/skel/.config/
     cp -ra "$srcdir"/.config/swaylock/ "$pkgdir"/etc/skel/.config/
+	cp -ra "$srcdir"/.conkyrc "$pkgdir"/etc/skel/
 }
