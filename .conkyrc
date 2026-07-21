@@ -2,7 +2,7 @@
 ###################################
 ##  StratOS Conky config  ##
 ###################################
-]]
+-- ]]
 
 conky.config = {
 
@@ -103,10 +103,11 @@ ${color1}[S]+E${alignr}${color2}File Manager[Thunar]${color}
 ${color1}[S]+[RET]${alignr}${color2}TERM [Kitty]${color}
 ${color1}[S]+B${alignr}${color2}BROWSER [Zen Browser]${color}
 ${color1}[S]+D${alignr}${color2}Desktop entries${color}
-${color1}[S]+R${alignr}${color2}Open Application Launcher (Vicinae)${color}
+${color1}[S]+R${alignr}${color2}Open App Launcher (Vicinae)${color}
 ${color1}[S]+C${alignr}${color2}Toggle conky${color}
 ${color1}${hr}${color}
+${color1}[S]+X${alignr}${color2}Power Menu${color}
+${color1}[S]+C${alignr}${color2}Clipboard History${color}
 ${color1}[S]+[SHIFT]+R${alignr}${color2}Restart Waybar${color}
-
 ${color1}${hr}${color}
 ]];
